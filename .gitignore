@@ -15,8 +15,6 @@ env/
 
 # Environment & secrets
 .env
-**/credentials.json
-**/google_credentials.json
 
 # IDE & OS
 .DS_Store
@@ -29,13 +27,8 @@ env/
 *.log
 cron.log
 
-# Data directories (không commit dữ liệu vào git)
-data/
-tmp/
-
 # Parquet & ML output files
 *.parquet
-configs/ml/
 
 # Testing
 .pytest_cache/
